@@ -56,10 +56,10 @@ while True:
     # felhasználó lépését, és a lehetséges eseteknek megfelelően írjunk
     # ki egy üzenetet a `print` függvénnyel (mit lépett a gép, és mi a
     # végeredmény). A legnaivabb megoldás szerint 9 (3x3) feltételes ágat
-    # (if/elif/else) kell megírni, ez persze csökkenthető.
+    # (if/elif/else) kell megírni, ez persze csökkenthető.    
 
-    # P.S.: Gondolom rájöttetek volna, de az órán elfelejtettük
-    # megjegyezni azt a nélkülözhetetlen infót, hogy a `==` és a többi
+    # Gondolom rájöttetek volna, de az órán elfelejtettük megjegyezni
+    # azt a nélkülözhetetlen infót, hogy a `==` és a többi
     # összehasonlító operátor stringekkel is használható. Az
     # egyenlőségen kívül a többire itt nem lesz szükségetek, azonban
     # érdemes kipróbálnotok őket, mert nem feltétlenül triviális a
@@ -79,6 +79,10 @@ while True:
     # próbálkozik, kérjetek újra inputot (hint: `!=`, `or`, valamint
     # `continue` kulcsszó).
 
-
-
-
+    
+    # P.S.: Egy tipp, ami nélkülözhetetlen az okosabb megoldás esetén -
+    # a túl hosszú kifejezéseket el lehet törni több sorba, amennyiben
+    # bezárójelezitek az egészet, valahogy így:
+    
+    # var = (1 + 2 + 3
+    #        4 + 5 + 6)
