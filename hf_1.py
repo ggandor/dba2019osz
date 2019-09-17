@@ -57,8 +57,7 @@ while True:
     # ki egy üzenetet a `print` függvénnyel (pl. "győztél",
     # "vesztettél", "döntetlen", de persze lehet cizellálni).
     # A legnaivabb megoldás szerint 9 (3x3) feltételes ágat
-    # (if/elif/else) kell megírni, de ez már a jelenlegi tudással is
-    # redukálható 7-re.
+    # (if/elif/else) kell megírni.
 
     # P.S.: Gondolom rájöttetek volna, de az órán elfelejtettük
     # megjegyezni azt a nélkülözhetetlen infót, hogy a `==` és a többi
