@@ -54,10 +54,9 @@ while True:
 
     # A játékszabályok szerint hasonlítsuk össze a gép lépését és a
     # felhasználó lépését, és a lehetséges eseteknek megfelelően írjunk
-    # ki egy üzenetet a `print` függvénnyel (pl. "győztél",
-    # "vesztettél", "döntetlen", de persze lehet cizellálni).
-    # A legnaivabb megoldás szerint 9 (3x3) feltételes ágat
-    # (if/elif/else) kell megírni.
+    # ki egy üzenetet a `print` függvénnyel (mit lépett a gép, és mi a
+    # végeredmény). A legnaivabb megoldás szerint 9 (3x3) feltételes ágat
+    # (if/elif/else) kell megírni, ez persze csökkenthető.
 
     # P.S.: Gondolom rájöttetek volna, de az órán elfelejtettük
     # megjegyezni azt a nélkülözhetetlen infót, hogy a `==` és a többi
