@@ -14,3 +14,9 @@ https://www.youtube.com/watch?v=rkx5_MRAV3A
 ###### Adatformátumok
 
 - Godsey, Brian: Where data might live, and how to interact with it. In: Uő: Think Like a Data Scientist. Manning, 2017. pp. 44-56. https://livebook.manning.com/book/think-like-a-data-scientist/chapter-3
+
+#### Digitális bölcsészet - elmélet és alkalmazások (előretekintés)
+
+- Introduction to Digital Humanities (UCLA) http://dh101.humanities.ucla.edu/
+
+- The Programming Historian https://programminghistorian.org/
