@@ -2,7 +2,7 @@
 * programnyelv mint nyelvtan ill. a rá írt fordító/értelmező szoftver
 * egyszerű aritmetika; adattípus fogalma; int, float
 * változók; névkonvenciók és megkötések
-* stringek; konkatenáció (+)
+* stringek; összefűzés (+)
 * típushibák (szám + string?)
 * boolean típus: True, False
 * összehasonlító operátorok (==, <, >, <=, >=, !=)
