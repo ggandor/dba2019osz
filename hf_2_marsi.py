@@ -17,8 +17,10 @@ Lépésről lépésre haladjatok, ha van megoldásotok egy-egy részproblémára
 teszteljétek le, próbáljátok ki néhány értéken. A kód maga nagyon rövid
 lesz, a fő kihívás fejben összerakni a lépéseket.
 
+https://www.businessinsider.com/the-martian-hexidecimal-language-2015-9
 https://hu.wikipedia.org/wiki/ASCII
 https://hu.wikipedia.org/wiki/Tizenhatos_sz%C3%A1mrendszer
+https://matekarcok.hu/szamiras-szamrendszerek/
 """
 
 # Watney
