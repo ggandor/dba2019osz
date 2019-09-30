@@ -17,4 +17,13 @@
 * string összehasonlítások; ASCII-tábla
 * túlterhelés (overloading) - adott operátor más-más kontextusban másként viselkedik
 * import kulcsszó, standard könyvtár, külső package-ek installálása (Matplotlib példák)
-* while-ciklus; "számláló" változó; break és continue kulcsszavak
+* **while-ciklus**; "számláló" változó; break és continue kulcsszavak
+
+**4. óra**
+* **listák**
+* hozzáférés az elemekhez index alapján
+* slice szintaxis (list\[ : \]) 
+* in, not in
+* lista metódusok (listákon értelmezett függvények) - index, append, sort, stb.
+* **for-ciklus**
+* stringek használata listákhoz hasonlóan
