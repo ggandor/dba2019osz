@@ -15,7 +15,7 @@ forgatja a Pathfinder kameráját.
 
 Lépésről lépésre haladjatok, ha van megoldásotok egy-egy részproblémára,
 teszteljétek le, próbáljátok ki néhány értéken. A kód maga nagyon rövid
-és egyszerű lesz, a fő kihívás fejben összerakni a lépéseket.
+lesz, a fő kihívás fejben összerakni a lépéseket.
 
 https://hu.wikipedia.org/wiki/ASCII
 https://hu.wikipedia.org/wiki/Tizenhatos_sz%C3%A1mrendszer
