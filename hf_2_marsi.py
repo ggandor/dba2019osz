@@ -44,6 +44,7 @@ hex_message = "484F57414C495645"
 # Más kérdés, hogy az ábécét decimálisan 32-90 - azaz space és Z - közé
 # korlátozva is valószínűleg remekül el lehetett volna beszélgetni.)
 
+
 # Most a végéről kezdjük, és visszafelé haladunk. A `chr` függvény
 # vissza tudja adni az adott ASCII-kódhoz tartozó karaktert - ez lesz az
 # utolsó lépés. Ezt a kódot (számértéket) azonban egy integerként,
