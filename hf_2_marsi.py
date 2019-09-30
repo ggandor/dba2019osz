@@ -34,6 +34,16 @@ hex_message = "484F57414C495645"
 # értéket - reprezentál, ez pedig az ASCII-táblázat alapján egy szöveges
 # karaktert).
 
+# (Megjegyzés: a szöveges karakter ASCII-kódja egy puszta számérték,
+# amely független attól, hogy milyen számrendszerben írjuk le. A 16-os
+# számrendszer használata egyáltalán nem szükségszerű - a főhős 
+# választhatta volna azt is, hogy 10 táblát szúr le, 0-9-ig, és
+# decimális számok formájában várja az üzenetet. 16-os alapú formában
+# azonban a teljes ASCII-karakterkészlet használható, úgy, hogy minden
+# érték következetesen kétjegyű lesz, ami egyszerűvé teszi az életet.
+# Más kérdés, hogy az ábécét decimálisan 32-90 - azaz space és Z - közé
+# korlátozva is valószínűleg remekül el lehetett volna beszélgetni.)
+
 # Most a végéről kezdjük, és visszafelé haladunk. A `chr` függvény
 # vissza tudja adni az adott ASCII-kódhoz tartozó karaktert - ez lesz az
 # utolsó lépés. Ezt a kódot (számértéket) azonban egy integerként,
