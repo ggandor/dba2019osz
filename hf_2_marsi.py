@@ -43,8 +43,8 @@ hex_message = "484F57414C495645"
 
 # Itt jön képbe az `int` függvény, amit már ismerünk. Ö ugyanis nem csak
 # 10-es számrendszerben megadott stringeket tud integerré konvertálni -
-# második, opcionális argumentumként megadható az alapszám (radix),
-# vagyis, hogy milyen számrendszerben kapja az első argumentumot.
+# második, opcionális argumentumként megadható az alapszám, vagyis,
+# hogy milyen számrendszerben kapja az első argumentumot.
 
 # Egy példa binárisan megadott argumentumra:
 # int('0b100', 2) --> 4
