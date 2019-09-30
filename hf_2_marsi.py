@@ -30,7 +30,7 @@ hex_message = "484F57414C495645"
 
 # Először is végig kell mennünk egy ciklussal, és minden körben ki kell
 # vágnunk egy 2 karakter hosszú szeletet (amely egy kétjegyű
-# hexadecimális számot - vagyis 10-es alapon 0-255 tartományban lévő
+# hexadecimális számot - vagyis 10-es alapon 16-255 tartományban lévő
 # értéket - reprezentál, ez pedig az ASCII-táblázat alapján egy szöveges
 # karaktert).
 
