@@ -95,10 +95,14 @@ message_to_send = "BRINGSJRNROUT"  # bring Sojourner out
 # a fentihez hasonlóan. Ennek már önállóan is mennie kell, itt egyetlen
 # új függvény szükséges: az `ord` - a `chr` kvázi párjaként - visszaadja
 # a beadott karakter ASCII-kódját (pontosabban a Unicode reprezentációt,
-# de alap latin betűk esetén a kettő ugyanaz).
+# alap latin betűk esetén azonban a kettő ugyanaz) - de figyelem, sima
+# decimális számként, tehát egy kicsit itt is bűvészkedni kell még.
 # Ne feledjétek, hogy a stringek sok szempontból úgy működnek, mint a
 # listák, rajtuk is használható a legtöbb tanult művelet (vagdosás és
 # hasonlók)!
+# Ha kész van, ellenőrizzétek le, hogy jó-e a megoldás - ezt roppant
+# egyszerűen megtehetitek, küldjétek be inputnak a dekódoló programba,
+# amit fent már megírtatok.
 
 
 
