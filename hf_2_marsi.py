@@ -83,6 +83,12 @@ hex_message = "484F57414C495645"
 # hátra, mint kiprintelni, vagy egy listához hozzáadni a dekódolt
 # karaktert - és így tovább, minden ciklusban.
 
+# Update: tévedni emberi dolog, a hex számot bizony előtag nélkül is
+# beveszi, ha megadjuk az alapot (és valóban, miért ne tenné, hiszen
+# redundáns információ), a lényeg, hogy string legyen. A fenti kitérő
+# mégsem volt teljesen felesleges, a `hex` függvény ugyanis kelleni fog
+# a következő részhez. 
+
 
 
 
