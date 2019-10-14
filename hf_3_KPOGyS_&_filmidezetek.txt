@@ -1,4 +1,4 @@
-A. Kő-papír-olló-gyík-Spock, elegáns megoldás
+Házi feladat no. 3/A: Kő-papír-olló-gyík-Spock, elegáns megoldás
 
 Hozzávalók: 1db szótár, "in", "not in", plusz a többi jól ismert
 dolog. Természetesen lehessen kilépni, és ellenőrizzük, hogy értelmes
@@ -11,7 +11,7 @@ annyi lenne a dolgunk, hogy a szótárba felvegyük a megfelelő elemeket,
 és a teljes program még akkor is elférne egy képernyőn.
 
 
-B. Táblák összefésülése
+Házi feladat no. 3/B: Táblák összefésülése
 
 Megjegyzés: ebben a feladatban lényegében az ún. relációs adatbázisok
 "összekapcsolás" műveletéhez hasonló dolgot csinálunk (persze naiv,
