@@ -27,6 +27,9 @@ I love the smell of napalm in the morning.|Apocalypse Now
 I am big. It's the pictures that got small.|Sunset Boulevard
 (...)
 
+A readlines és writelines metódusok itt jól jöhetnek a sima read és
+write helyett.
+
 P.S.: Utána lehet olvasni a csv fájloknak, és hogy milyen beépített
 eszközei vannak a Pythonnak a kezelésükre, de egyelőre nem szükséges,
 nem ekörül forog a feladat.
