@@ -14,34 +14,19 @@ annyi lenne a dolgunk, hogy a szótárba felvegyük a megfelelő elemeket,
 Házi feladat no. 3/B: Táblák összefésülése
 
 Megjegyzés: ebben a feladatban lényegében az ún. relációs adatbázisok
-"összekapcsolás" műveletéhez hasonló dolgot csinálunk (persze naiv,
-kevéssé hatékony módon).
+"összekapcsolás" műveletéhez hasonló dolgot csinálunk.
 
 Adott két fájlunk, különböző információkkal. Az egyik filmes idézeteket
 párosít karakterek nevéhez, a másik karaktereket filmcímekhez.
 
-A feladat: hozzunk létre egy olyan fájt, amelyben az idézetek mellett
-a vonatkozó filmcímet találjuk.
+A feladat: hozzunk létre egy olyan új fájt, amelyben az idézetek mellett
+a vonatkozó filmcímet találjuk, a másik kettőhöz hasonló formában:
 
-Olvassuk be a fájlokat, és csináljunk belőlük pl. szótárakat tartalmazó
-listákat, vagy 1-1 nagy szótárat - a lényeg, hogy valahogy össze tudjuk
-hasonlítani a "karakter" attribútum mentén a kettőt.
-
-Ezután ciklus(ok)kal fésüljük össze a közös kulcs mentén őket egy új
-listába/szótárba, amely csak a karakterneveket és a filmcímeket
-tartalmazza, végül pedig írjuk vissza egy az előzőekkel azonos formátumú
-fájlba az eredményt.
-
-Ha van működő verzió, vegyétek észre, hogy valószínűleg többször is
-nagyon hasonló kódrészleteket írtatok le. Próbáljátok meg kiszervezni
-az ismétlődő részeket függvényekbe, a változó elemeket pedig
-a függvények paramétereként fogalmazzátok meg, így elég a logikát
-egyszer megírni, majd a függvényt különböző argumentumokkal hívni.
-(Pl. 'read_file', 'content_to_dictionary', és hasonló függvénynevek
-gyanúsak...) Bónuszként még a többi részre is adhattok általános
-megoldást ('merge_dictionaries', 'write_dictionary_to_file' és
-hasonlók...).
+quote|film
+I love the smell of napalm in the morning.|Apocalypse Now
+I am big. It's the pictures that got small.|Sunset Boulevard
+(...)
 
 P.S.: Utána lehet olvasni a csv fájloknak, és hogy milyen beépített
-eszközei vannak a Pythonnak a kezelésükre, de egyelőre nem szükséges
-- lehet velük egyszerűsíteni az életet, de nem ekörül forog a feladat.
+eszközei vannak a Pythonnak a kezelésükre, de egyelőre nem szükséges,
+nem ekörül forog a feladat.
