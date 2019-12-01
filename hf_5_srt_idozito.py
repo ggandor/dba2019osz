@@ -4,7 +4,10 @@ Házi feladat no. 5: Felirat-időzítés
 A feladat egy srt feliratfájlok szinkronizálására szolgáló program
 elkészítése.
 
-Lépések: 
+Lépések:
+0. Input kérése a felhasználótól, az időzítendő fájl nevével/elérési
+útjával, a csúsztatás mértékével, valamint a kimeneti fájl
+nevével/elérési útjával (ha entert üt, írja felül az eredeti fájlt).
 1. Beolvasni a feliratfájlt.
 2. Az összes timecode-ot a megadott értékkel megnövelni vagy csökkenteni.
 - Timecode string átalakítása időértékké (pl. milliszekundum).
