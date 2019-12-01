@@ -29,13 +29,13 @@ SECS_PER_MIN = 60
 MINS_PER_HOUR = 60
 
 
-def msecs_to_timecode(n_msecs):
+def msecs_to_timecode(arg_msecs):
     # % -> modulo ("a mod b" = a/b maradéka)
     # floor -> alsó egészrész (lefelé kerekítés)
-    hours = floor(n_msecs / MSECS_PER_HOUR)
-    mins = floor(n_msecs / MSECS_PER_MIN) % MINS_PER_HOUR
-    secs = floor(n_msecs / MSECS_PER_SEC) % SECS_PER_MIN
-    msecs = n_msecs % MSECS_PER_SEC
+    hours = floor(arg_msecs / MSECS_PER_HOUR)
+    mins = floor(arg_msecs / MSECS_PER_MIN) % MINS_PER_HOUR
+    secs = floor(arg_msecs / MSECS_PER_SEC) % SECS_PER_MIN
+    msecs = arg_msecs % MSECS_PER_SEC
 
     hours, mins, secs = map(lambda s: s.zfill(2),
                             map(str, [hours, mins, secs]))
