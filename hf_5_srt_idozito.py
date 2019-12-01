@@ -30,10 +30,6 @@ MINS_PER_HOUR = 60
 
 
 def msecs_to_timecode(n_msecs):
-
-    def pad_with_zeros(s, slots_to_fill):
-        return '0' * (slots_to_fill - len(s)) + s
-
     # % -> modulo ("a mod b" = a/b maradéka)
     # floor -> alsó egészrész (lefelé kerekítés)
     hours = floor(n_msecs / MSECS_PER_HOUR)
@@ -41,10 +37,9 @@ def msecs_to_timecode(n_msecs):
     secs = floor(n_msecs / MSECS_PER_SEC) % SECS_PER_MIN
     msecs = n_msecs % MSECS_PER_SEC
 
-    hours, mins, secs = map(
-            lambda s: pad_with_zeros(s, slots_to_fill=2),
-            map(str, (hours, mins, secs)))
-    msecs = pad_with_zeros(str(msecs), slots_to_fill=3)
+    hours, mins, secs = map(lambda s: s.zfill(2),
+                            map(str, [hours, mins, secs]))
+    msecs = str(msecs).zfill(3)
 
     return f"{hours}:{mins}:{secs},{msecs}"
 
