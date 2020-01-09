@@ -109,12 +109,6 @@ print("\n")
 # n: pet = pets[-1]
 #    print(pet, end=' ')
 
-# Csakhogy: a `pet` ún. lokális változó, a hatóköre csak a ciklus
-# belseje; a ciklus lefutása után "meghal", kívülről nem tudnánk
-# hivatkozni rá. (Ugyanilyen lokális változó, amit pl. egy
-# while-cikluson vagy egy if-ágon belül hozunk létre. Később bővebben
-# kitérünk erre.)
-
 # a lista hosszának megtudakolása len() függvény helyett for-ciklussal
 # (ennek persze semmi gyakorlati értelme)
 length_of_pets = 0
